@@ -4,3 +4,4 @@ pypdf
 chromadb
 scikit-learn
 cryptography
+deepeval
