@@ -1,0 +1,15 @@
+questions related to notice.(yes for Ana)
+Smoking (Ana.pdf)
+Bills included in rent (not for Ana)
+
+
+
+YEs
+Cleaning (Ana.pdf)
+parties,  (can answer direct questions only, better for RK)
+
+Rules:
+1. Do not modify the provided files in any way. 
+2. You may give me small stubs of code, which I could then add it in my existing codebase manually (you will not make any edits in the files/ create new files in any way).
+3.You will guide me in the process of improving this pipeline and understanding the process of doing so, rather than giving me everything in a silver plate. 
+heater
