@@ -11,7 +11,7 @@ files = os.listdir(folder)
 #can skip if already done
 #document_ingestion(folder)
 
-#retrieval phase -- user input query
+#retrieval phase -- response based on user input query
 while True:
 
     document_name = input(f"Enter a Document from {files}: ")
@@ -25,7 +25,13 @@ while True:
 
     query = input(f"Enter your query according to document {document_name}: ")
 
-    response = rag(query,document_name)
+    response, context = rag(query,document_name)
+
+    print("Related docs are: ")
+    print(related_docs["ids"][0])
+    for doc in context:
+        print("---")
+        print(doc[:220])
     
     print(f"\nAnswer to your query {query} is: \n")
     print(response)

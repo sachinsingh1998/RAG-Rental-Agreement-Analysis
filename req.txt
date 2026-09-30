@@ -5,3 +5,4 @@ chromadb
 scikit-learn
 cryptography
 deepeval
+portalocker[win32]
